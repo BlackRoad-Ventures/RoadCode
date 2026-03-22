@@ -1,49 +1,52 @@
 # BlackRoad-Ventures — RoadCode
 
-> Investment & Commerce division of [BlackRoad OS, Inc.](https://github.com/BlackRoad-OS-Inc)
+> Partnerships & Business Development division of [BlackRoad OS, Inc.](https://github.com/BlackRoad-OS-Inc)
 
-Portfolio management, e-commerce, pricing, billing, Stripe integration.
+Business partnerships, integrations, and commercial strategy. Connects BlackRoad products to the market. Handles Stripe billing (our only external dependency for card processing).
 
-## Connection to BlackRoad-OS-Inc
+## Focus Areas
+
+| Area | What It Covers |
+|------|---------------|
+| **Stripe Integration** | Payment processing, subscriptions, invoicing |
+| **Partner Onboarding** | Integration templates for external collaborators |
+| **Business Development** | Market strategy, pricing models, partnership deals |
+| **Commerce Tools** | Product catalog, checkout flows, billing automation |
+
+## Org Hierarchy
 
 ```
-BlackRoad-OS-Inc (Parent — Data Layer)
-  └── BlackRoad-Ventures (Investment & Commerce)
-      └── RoadCode (this repo — workspace + automation)
+BlackRoad-OS-Inc (Parent — 254 repos, 67 agents, 7 nodes)
+  └── BlackRoad-Ventures (Partnerships & Business Development)
+      ├── RoadCode          ← this repo (workspace + automation)
+      ├── operator           ← CLI tools + billing scripts
+      └── source             ← integration templates + partner docs
 ```
 
-- **Parent Org**: [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
-- **Master RoadCode**: [BlackRoad-OS-Inc/RoadCode](https://github.com/BlackRoad-OS-Inc/RoadCode)
-- **Operator**: [BlackRoad-OS-Inc/blackroad-operator](https://github.com/BlackRoad-OS-Inc/blackroad-operator)
-- **Domain**: [blackroadquantum.shop](https://blackroadquantum.shop)
-- **Repos in this org**: 12
+## Repos in This Org
 
-## Role
+- [`RoadCode`](https://github.com/BlackRoad-Ventures/RoadCode) — Workspace hub (this repo)
+- [`operator`](https://github.com/BlackRoad-Ventures/operator) — CLI + automation
+- [`source`](https://github.com/BlackRoad-Ventures/source) — Source tree
 
-| Property | Value |
-|----------|-------|
-| **Division** | Investment & Commerce |
-| **Parent** | BlackRoad-OS-Inc |
-| **Governance** | [Cece Protocol](https://github.com/BlackRoad-OS-Inc/RoadCode/blob/main/ORG-MAP.md) |
-| **License** | Proprietary — BlackRoad OS, Inc. |
+## Corporate Context
 
-## RoadCode Standard
+- **Entity**: BlackRoad OS, Inc. — Delaware C-Corp, formed November 17, 2025
+- **Founder/CEO**: Alexa Amundson
+- **External dependencies**: Stripe (card processing), GoDaddy (domain registrar) — everything else is self-hosted
+- **Fleet cost**: $38/mo for 7 nodes running the entire stack
 
-Every BlackRoad org follows the RoadCode standard:
-- `RoadCode/` repo = workspace + automation hub
-- `.github/` repo = org profile + shared workflows
-- `operator/` repo = CLI tools + bootstrap scripts
-- `source/` repo = canonical source tree
+## How It Connects
 
-All orgs report to **BlackRoad-OS-Inc** as the central coordination layer.
+- **Parent**: [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc) — central coordination
+- **Cloud**: [BlackRoad-Cloud](https://github.com/BlackRoad-Cloud) — infrastructure that partners connect to
+- **Security**: [BlackRoad-Security](https://github.com/BlackRoad-Security) — compliance for partner integrations
+- **Foundation**: [BlackRoad-Foundation](https://github.com/BlackRoad-Foundation) — grants + community partnerships
 
-## Quick Links
+## License
 
-- [Master ORG-MAP](https://github.com/BlackRoad-OS-Inc/RoadCode/blob/main/ORG-MAP.md)
-- [Master TODO](https://github.com/BlackRoad-OS-Inc/RoadCode/blob/main/TODO.md)
-- [Master ROADMAP](https://github.com/BlackRoad-OS-Inc/RoadCode/blob/main/ROADMAP.md)
-- [All Domain Repos](https://github.com/orgs/BlackRoad-OS-Inc/repositories)
+Proprietary — BlackRoad OS, Inc. See [LICENSE](./LICENSE).
 
 ---
 
-**Proprietary Software — BlackRoad OS, Inc.**
+*Remember the Road. Pave Tomorrow.*
